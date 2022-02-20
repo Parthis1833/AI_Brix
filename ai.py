@@ -87,6 +87,8 @@ if __name__ == "__main__":
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
+        elif 'navigation' in query:
+            speak(f"left trun ")
 
         elif 'open code' in query:
             codePath = "C:\\Users\\Sonal\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
